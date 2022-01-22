@@ -13,10 +13,10 @@ def battle():
         Bow('Infinite Throwing Javelin', 30, 0.2, 1)
     ]
     list_of_armor = [
-        Armor('Blades of Fury', 100),
-        Armor('Frostmourne', 1, 'freeze'),
-        Armor('Hammer of Doom', 10, 'burn'),
-        Armor('Scythe of death', 50, 'burnfreeze')
+        Armor('Ranger Armor', 100),
+        Armor('Reinforced Armor', 1, 'freeze'),
+        Armor('Enchanted Shirt', 10, 'burn'),
+        Armor('Cloak Of Invisibility', 50, 'burnfreeze')
     ]
     list_of_war = [
         Warrior('Arthas', 50, 10),

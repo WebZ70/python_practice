@@ -1,6 +1,7 @@
 from object.warrior import Warrior
 from object.weapon.sword import Sword
 from object.weapon.bow import Bow
+from object.armor.armor import Armor
 import random
 
 
