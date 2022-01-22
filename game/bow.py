@@ -15,8 +15,7 @@ class Bow(Weapon):
     def get_damage(self):
         return self.damage * self.accuracy
 
-    def deal_damage(self):
-        r = random.random()
+    def deal_damage(self, r=random.random()):
         if r <= self.accuracy:
             return self.damage
         return 0

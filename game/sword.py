@@ -15,10 +15,9 @@ class Sword(Weapon):
     def get_damage(self):
         return self.damage * self.durability
 
-    def deal_damage(self):
-        r = random.random()
+    def deal_damage(self, r=random.random()):
         out_damage = self.get_damage()
-        if r <= 0.5:
+        if r >= 0.5:
             self.durability = self.durability - 0.1
         return out_damage
 
