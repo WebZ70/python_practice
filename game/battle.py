@@ -1,6 +1,7 @@
 from object.warrior import Warrior
 from object.weapon.sword import Sword
 from object.weapon.bow import Bow
+from object.armor.armor import Armor
 import random
 
 
@@ -11,7 +12,12 @@ def battle():
         Bow('Crossbow', 2, 1, 0.8),
         Bow('Infinite Throwing Javelin', 30, 0.2, 1)
     ]
-
+    list_of_armor = [
+        Armor('Blades of Fury', 100),
+        Armor('Frostmourne', 1, 'freeze'),
+        Armor('Hammer of Doom', 10, 'burn'),
+        Armor('Scythe of death', 50, 'burnfreeze')
+    ]
     list_of_war = [
         Warrior('Arthas', 50, 10),
         Warrior('Uther', 50, 10),
