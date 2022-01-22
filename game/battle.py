@@ -25,6 +25,6 @@ def battle():
             del list_of_war[r1]
  
     print('++++++++++++++++++++++++++++++')
-    print('\n\t\t Турнир окончен!')
-    print('\tПобеду одерживает %s!' % (list_of_war.pop().get_name()))
-    print('\tНо герои не живут вечно!')
+    print('\n\t\t Битва окончена!')
+    print('\tПобеждает %s!' % (list_of_war.pop().get_name()))
+
