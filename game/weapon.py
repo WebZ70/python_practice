@@ -1,7 +1,7 @@
 class Weapon:
     def __init__(self, name, damage):
-        self.__name = name
-        self.__damage = damage
+        self.name = name
+        self.damage = damage
 
     def __del__(self):
         pass
@@ -11,6 +11,9 @@ class Weapon:
 
     def deal_damage(self):
         pass
+
+    def __le__(self, other):
+        return self.get_damage() < other.get_damage()
 
     # Блок геттеров
     @property
@@ -28,4 +31,4 @@ class Weapon:
 
     @damage.setter
     def damage(self, damage):
-        self.damage = damage
+        self.__damage = 
