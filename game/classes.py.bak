@@ -6,7 +6,7 @@ class Warrior(object):
 
     def __del__(self):
         print("Valhalla, %s is coming" % (self.get_name()))
-
+        
     def get_hit(self, enemy: Warrior):
         self.health = self.health - enemy.get_attack()
         print("%s получ %d урона от %s" % (self.get_name(), enemy.get_attack(), enemy.name))
